@@ -299,6 +299,7 @@ input:checked + .slider:before { transform: translateX(16px); }
     font-size: calc(var(--cell-size) * 0.7); cursor: pointer;
     transition: top 0.25s ease-in-out, left 0.25s ease-in-out; 
     z-index: 5; user-select: none;
+    font-variant-emoji: text;
 }
 
 .piece.white { color: #fff; text-shadow: 0 2px 4px rgba(0,0,0,0.6); }
